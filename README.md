@@ -1,4 +1,4 @@
-Music 0.8.18
+Chant 0.8.18
 ============
 Display Gregorian chant scores.
 
@@ -6,11 +6,11 @@ Display Gregorian chant scores.
 
 ## How to display a Gregorian chant score
 
-Write the Gregorian chant score in [GABC notation](http://gregorio-project.github.io/gabc/) and put it into a block code with the attribute `chant`. GABC is a format that allows to write easily Gregorian music, even without a graphical editor. [GregorBase](https://gregobase.selapa.net/) is a huge library of public domain chants in GABC notation.
+Write the Gregorian chant score in [GABC notation](https://gregorio-project.github.io/gabc/) and put it into a block code with the attribute `chant`. GABC is a format that allows to write easily Gregorian music, even without a graphical editor. [GregorBase](https://gregobase.selapa.net/) is a huge library of public domain chants in GABC notation.
 
 ## Example
 
-A simple Gregorian chant score in GABC notation:
+A Gregorian chant score in GABC notation:
 
     ```chant
     name:Puer natus est;

@@ -16,7 +16,6 @@ class YellowChant {
         if ($name=="header") {
             $extensionLocation = $this->yellow->system->get("coreServerBase").$this->yellow->system->get("coreExtensionLocation");
             $output .= "<script type=\"text/javascript\" defer=\"defer\" src=\"{$extensionLocation}chant-exsurge.min.js\"></script>\n";
-            /* At https://github.com/bbloomf/exsurge an updated version of the library */
             $output .= "<script type=\"text/javascript\" defer=\"defer\" src=\"{$extensionLocation}chant.js\"></script>\n";
         }
         return $output;

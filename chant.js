@@ -1,11 +1,12 @@
 "use strict";
 document.addEventListener("DOMContentLoaded", function() {
     var chants = document.querySelectorAll("pre.chant");
-    if (chants) var color = window.getComputedStyle(chants[0]).getPropertyValue("color");
     chants.forEach(function(chant) {
         chant.firstChild.style.display = "block"; // important
+        var firstColor = window.getComputedStyle(chant, "::first-letter").color;
+        var color = window.getComputedStyle(chant).color;
         var ctxt = new exsurge.ChantContext();
-        ctxt.dropCapTextColor = color;
+        ctxt.dropCapTextColor = firstColor;
         ctxt.lyricTextColor = color;
         ctxt.rubricColor = "#d00";
         ctxt.staffLineColor = color;

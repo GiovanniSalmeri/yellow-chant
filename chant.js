@@ -4,6 +4,12 @@ document.addEventListener("DOMContentLoaded", function() {
     chants.forEach(function(chant, i) {
         // accessibility
         var chantText = chant.firstChild.textContent;
+        var metadata = [];
+        [/^office-part:\s*(.*?);\s*$/m, /^name:\s*(.*?);\s*$/m].forEach(function(re) {
+            var match = chantText.match(re);
+            if (match) metadata.push(match[1]);
+        });
+        var label = metadata.join(' ');
         var accessibleText = document.createElement("PRE");
         accessibleText.style.display = "none";
         accessibleText.id = "chant"+i;
@@ -11,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
         chant.insertAdjacentElement("afterend", accessibleText);
         chant.setAttribute("role", "img");
         chant.setAttribute("aria-describedby", "chant"+i);
+        if (label) chant.setAttribute("aria-label", label);
         // draw score
         chant.firstChild.style.display = "block"; // important
         var firstColor = window.getComputedStyle(chant, "::first-letter").color;

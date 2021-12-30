@@ -1,5 +1,6 @@
 .content pre.chant {
     color: #333;
+    visibility: hidden;
 }
 .content pre.chant::first-letter {
     color: inherit;

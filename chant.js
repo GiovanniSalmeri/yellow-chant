@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
           score.performLayoutAsync(ctxt, function() {
             score.layoutChantLines(ctxt, chant.firstChild.offsetWidth, function() {
               chant.firstChild.innerHTML = score.createSvg(ctxt);
+              chant.style.visibility = "visible";
             });
           });
         });

@@ -1,3 +1,5 @@
+// Chant extension, https://github.com/GiovanniSalmeri/yellow-chant
+
 "use strict";
 document.addEventListener("DOMContentLoaded", function() {
     var chants = document.querySelectorAll("pre.chant");

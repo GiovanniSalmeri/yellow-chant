@@ -4,7 +4,7 @@ Display Gregorian chant scores.
 
 <p align="center"><img src="chant-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
 
-## How to display a Gregorian chant score
+## How to show a Gregorian chant score
 
 Write the Gregorian chant score in [GABC notation](https://gregorio-project.github.io/gabc/) and put it into a block code with the attribute `chant`. GABC is a format that allows to write easily Gregorian music, even without a graphical editor. [GregorBase](https://gregobase.selapa.net/) is a huge library of public domain chants in GABC notation.
 

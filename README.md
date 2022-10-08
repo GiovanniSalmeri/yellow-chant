@@ -33,7 +33,7 @@ A Gregorian chant score in GABC notation:
 
 ## Installation
 
-[Download extension](https://github.com/GiovanniSalmeri/yellow-chant/archive/master.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
+[Download extension](https://github.com/GiovanniSalmeri/yellow-chant/archive/main.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
 
 This extension uses [exsurge](https://github.com/bbloomf/exsurge) by Matthew Spencer, currently maintained by Benjamin Bloomfield.
 

@@ -39,4 +39,4 @@ This extension uses [exsurge](https://github.com/bbloomf/exsurge) by Matthew Spe
 
 ## Developer
 
-Giovanni Salmeri. [Get help](https://github.com/GiovanniSalmeri/yellow-music/issues).
+Giovanni Salmeri. [Get help](https://datenstrom.se/yellow/help/)

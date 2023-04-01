@@ -4,15 +4,21 @@ Display Gregorian chant scores.
 
 <p align="center"><img src="chant-screenshot.png?raw=true" alt="Screenshot"></p>
 
+## How to install an extension
+
+[Download ZIP file](https://github.com/GiovanniSalmeri/yellow-chant/archive/main.zip) and copy it into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
+
 ## How to show a Gregorian chant score
 
-Write the Gregorian chant score in [GABC notation](https://gregorio-project.github.io/gabc/) and put it into a block code with the attribute `chant`. GABC is a format that allows to write easily Gregorian music, even without a graphical editor. [GregorBase](https://gregobase.selapa.net/) is a huge library of public domain chants in GABC notation.
+You can write a Gregorian chant score with [GABC notation](https://gregorio-project.github.io/gabc/). GABC is a format that allows to write easily Gregorian music, even without a graphical editor. [GregorBase](https://gregobase.selapa.net/) is a huge library of public domain chants in GABC notation.
+
+Insert the chant score with a code block. Wrap the data in \`\`\` and add the language identifier `chant`.
 
 ## Example
 
 A Gregorian chant score in GABC notation:
 
-    ```chant
+    ``` chant
     name:Puer natus est;
     office-part:Introitus;
     mode:7;
@@ -31,12 +37,10 @@ A Gregorian chant score in GABC notation:
     E(i) u(i!jwk) o(i') u(h) a(hhh) e.(fe..) (::)
     ```
 
-## Installation
+## Acknowledgements
 
-[Download extension](https://github.com/GiovanniSalmeri/yellow-chant/archive/main.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
-
-This extension uses [exsurge](https://github.com/bbloomf/exsurge) by Matthew Spencer, currently maintained by Benjamin Bloomfield.
+This extension includes [exsurge](https://github.com/bbloomf/exsurge) by Matthew Spencer, currently maintained by Benjamin Bloomfield. Thank you for the good work.
 
 ## Developer
 
-Giovanni Salmeri. [Get help](https://datenstrom.se/yellow/help/)
+Giovanni Salmeri. [Get help](https://datenstrom.se/yellow/help/).

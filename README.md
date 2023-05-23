@@ -1,6 +1,6 @@
 Chant 0.8.18
 ============
-Display Gregorian chant scores.
+Gregorian chant scores.
 
 <p align="center"><img src="chant-screenshot.png?raw=true" alt="Screenshot"></p>
 

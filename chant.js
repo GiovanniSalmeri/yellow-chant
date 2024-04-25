@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     chants.forEach(function(chant, i) {
         // accessibility
         var chantText = chant.firstChild.textContent;
+//alert(chantText)
         var metadata = [];
         [/^office-part:\s*(.*?);\s*$/m, /^name:\s*(.*?);\s*$/m].forEach(function(re) {
             var match = chantText.match(re);
@@ -41,5 +42,6 @@ document.addEventListener("DOMContentLoaded", function() {
             });
           });
         });
+        window.dispatchEvent(new Event('resize'));
     });
 }, false);
